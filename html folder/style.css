@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+.service{
+    width: 100%;
+    height: 100%;
+    background-color: #003669;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 2%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 15%;
+    display: flex;
+    align-items: center;
+}  
+.logo{
+    width: 5%;
+    cursor: pointer;
+    
+}
+.nav{
+    flex: 1;
+    cursor: pointer;
+    text-align: right;
+    width:100%;
+    margin-left: 59%;
+    justify-content: flex-end;
+    transition: 1s;
+}
+.nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding-left: 5%;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 80%;
+}
+.nav ul li a:hover{
+    background-color: red;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: rgb(13, 13, 121);
+    font-size: 600%;
+    line-height:1.5%;
+    word-spacing: 1.5%;
+    font-weight: normal;
+    padding-bottom: 20%;
+    
+    
+}
+ p{
+    color: #000000;
+    font-size: 89%;
+    line-height: 15%;
+    
+}
+small{
+    font-size: 100%;
+    color: white;
+
+}
+h3{
+    font-size: 200%;
+    color: white;
+}
+
+button {
+    width: 30%;
+    color: #fff;
+    font-size: 90%;
+    padding-top: 2% ;
+    padding-bottom: 2%;
+    background-color:#031d36;
+    border: none;
+    border-radius: 30%;
+    outline: none;
+    margin-top: 1.5%;
+    margin-bottom: 30%;
+    cursor: pointer;
+}
+
+.image6{
+    width: 100%;
+    background-image: url(image/image.png.png);
+    cursor: pointer;
+    
+}
+
+.image2{
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    width: 100%;
+    cursor: pointer;
+    
+}
+
+.img-fluid round-3{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.img:hover{
+ cursor: pointer;
+}
+ 
+.form{
+    color: white;
+    background-color: #fff;
+    display:inline-table;
+    width: 100%;
+    padding-bottom: 20%;
+    padding-top: 10%;
+}
+input:hover{
+    border-color: darkred;
+}
+.submit{
+    padding-top: 20%
+}
+.footer{
+    text-align: center;
+    background-color: #000;
+    font-size: 20%;
+    font-weight:normal;
+}
