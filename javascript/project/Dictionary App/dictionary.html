@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dictionary</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="dictionary.css">
+</head>
+<body>
+     <p class="text-1"> Dictionary App</p>
+     <h3>English Dictionary</h3>
+    <div class="row mt-3" class="center">
+        <div class="col-md-6">
+            <input type="text" class="form-control" placeholder="Enter the word for search" id="input">
+        </div>
+        <div class="row" class="center">
+            <button type="submit" class="btn btn-outline-dark" onclick="dictionary()">search</button>
+        </div>
+    </div> 
+    <div class="tocenter" id="audio">
+        <audio src="" controls></audio>
+    </div>
+    <div class="heading" id="word">
+        <h1>Amazing</h1>
+    </div>  
+   <p class="pt" id="definition">
+       causing wonder and amazement; very suprising.
+   </p>
+   <p id="error"></p>
+   <script src="dictionary.js"></script>
+</body>
+</html>

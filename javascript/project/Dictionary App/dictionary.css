@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:black;
+}
+.text-1{
+    background-color: #e26e0f;
+    color: white;
+    font-size: 190%;
+    font-weight: 100%;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: hidden;
+    padding: auto;
+
+}
+.form-control{
+    background-color: #000000;
+    font-size: 100%;
+    text-align: center;
+    margin-left: 50%;
+}   
+
+h3{
+    font-size: 180%;
+    font-weight: 90%;
+    color:#343a40;
+    text-align: center;
+    
+}
+button {
+    border-radius: 0;
+    display: flex;
+    margin-left:500%;
+    cursor: pointer;
+    background-color: #000000;
+}
+  
+  button:focus {
+    outline: 1% dotted;
+    outline: 5% auto -webkit-focus-ring-color;
+}
+.btn-dark:not(:disabled):not(.disabled):active, .btn-dark:not(:disabled):not(.disabled).active,
+.show > .btn-dark.dropdown-toggle {
+  color: #fff;
+  background-color: #1d2124;
+  border-color: #171a1d;
+}
+.center{
+    text-align: center;
+}
+h1{
+    color: white;
+    margin-left: 2%;
+}
+.pt{
+    color: white;
+    margin-left: 2%;
+}
+.tocenter{
+    margin-top: 5%;
+    text-align: center;
+}

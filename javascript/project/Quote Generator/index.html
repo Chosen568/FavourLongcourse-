@@ -5,11 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Generate A Quote Today</title>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <button type="submit" id="btn" onclick="getquotes()">Generate Quotes</button>
-    <p id="content"></p>
-    <p id="author"></p>
+    <h3 class="quotes">Moltivation Quotes</h3>
+    <button type="submit" id="btn" onclick="getquotes()" class="btn btn-outline-primary">Generate Quotes</button>
+   
+    <p class="p1" id="content"></p>
+    <p class="p2" id="author"></p>
+    <p id="favour"></p>
+    <p id="error"></p>
    
     <script src="index.js"></script>
 </body>
